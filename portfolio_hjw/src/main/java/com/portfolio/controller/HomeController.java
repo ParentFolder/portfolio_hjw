@@ -41,4 +41,15 @@ public class HomeController {
 	public void indexGET() {
 		logger.debug(" index() 호출 ");
 	}
+
+//	http://localhost:8088/portfolio_details1
+	@RequestMapping(value = "/portfolio_details1", method = RequestMethod.GET)
+	public void portfolio_details1GET() {
+		logger.debug(" portfolio_details1() 호출 ");
+	}
+//	http://localhost:8088/portfolio_details2
+	@RequestMapping(value = "/portfolio_details2", method = RequestMethod.GET)
+	public void portfolio_details2GET() {
+		logger.debug(" portfolio_details2() 호출 ");
+	}
 }
