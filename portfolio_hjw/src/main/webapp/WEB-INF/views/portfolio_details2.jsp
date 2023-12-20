@@ -49,6 +49,11 @@
 html { 
   scroll-behavior: smooth; 
 } 
+.header .content-inner {
+    padding: 100px 30px;
+    background: url(/resources/img/hjw.png) right bottom no-repeat;
+    background-size: contain;
+}
 .slider-image {
 	max-width: 100%;
 	height: auto;
@@ -91,7 +96,7 @@ html {
 	<div class="wrapper">
 		<div class="sidebar">
 			<div class="sidebar-header">
-				<img src="resources/img/profile.jpg" alt="Image">
+				<img src="resources/img/hjw.png" alt="Image">
 			</div>
 			<div class="sidebar-content">
 				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -205,7 +210,7 @@ html {
 										<li><strong>Project date</strong>: 2023.</li>
 										<li><strong>Project URL</strong>:<br>
 										<strong>(회원)  </strong>
-										<a href="http://c6d2305t1.itwillbs.com/user/userLogin">
+										<a href="http://c6d2305t1.itwillbs.com/user/userLogin" target="_blank">
 										http://c6d2305t1.itwillbs.com/user/userLogin</a><br>
 										-ID : user1 <br>
 										-PW : 1234<br>
@@ -213,7 +218,7 @@ html {
 										-ID : admin<br>
 										-PW : 1234<br>
 										<strong>(기업가)</strong>
-										<a href="http://c6d2305t1.itwillbs.com/ent/entLogin">
+										<a href="http://c6d2305t1.itwillbs.com/ent/entLogin" target="_blank">
 										http://c6d2305t1.itwillbs.com/ent/entLogin</a><br>
 										-ID : 601-36-63525<br>
 										-PW : asd123!@#

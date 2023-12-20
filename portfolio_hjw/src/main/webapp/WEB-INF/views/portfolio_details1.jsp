@@ -49,6 +49,11 @@
 html { 
   scroll-behavior: smooth; 
 } 
+.header .content-inner {
+    padding: 100px 30px;
+    background: url(/resources/img/hjw.png) right bottom no-repeat;
+    background-size: contain;
+}
 .slider-image {
 	max-width: 100%;
 	height: auto;
@@ -91,7 +96,7 @@ html {
 	<div class="wrapper">
 		<div class="sidebar">
 			<div class="sidebar-header">
-				<img src="resources/img/profile.jpg" alt="Image">
+				<img src="resources/img/hjw.png" alt="Image">
 			</div>
 			<div class="sidebar-content">
 				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -146,53 +151,42 @@ html {
 							<i class="prev"></i> <i class="next"></i>
 							<div class="post-wrapper">
 								<div class="post">
-									<img src="resources/img/DAPAO/DAPAO.png" class="slider-image">
+									<img src="resources/img/lamp/intro.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/content.png" class="slider-image">
+									<img src="resources/img/lamp/index.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/Part1.png" class="slider-image">
+									<img src="resources/img/lamp/team.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/DAPAO_intro.png" class="slider-image">
+									<img src="resources/img/lamp/4.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/팀원소개.png" class="slider-image">
+									<img src="resources/img/lamp/5.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/intro_스케줄.png" class="slider-image">
+									<img src="resources/img/lamp/6.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/개발환경.png" class="slider-image">
+									<img src="resources/img/lamp/7.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/Part2.png" class="slider-image">
+									<img src="resources/img/lamp/8.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/배경.png" class="slider-image">
+									<img src="resources/img/lamp/9.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/ERD.png" class="slider-image">
+									<img src="resources/img/lamp/11.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/Part3.png" class="slider-image">
+									<img src="resources/img/lamp/order_1.png" class="slider-image">
 								</div>
 								<div class="post">
-									<img src="resources/img/DAPAO/Ent_adClick.png" class="slider-image">
+									<img src="resources/img/lamp/개선방향.png" class="slider-image">
 								</div>
-								<div class="post">
-									<img src="resources/img/DAPAO/Ent_adForm.png" class="slider-image">
-								</div>
-								<div class="post">
-									<img src="resources/img/DAPAO/admin_adManage.png" class="slider-image">
-								</div>
-								<div class="post">
-									<img src="resources/img/DAPAO/UserMain_adclick.png" class="slider-image">
-								</div>
-								<div class="post">
-									<img src="resources/img/DAPAO/User_adClick.png" class="slider-image">
-								</div>
+							
 							</div>
 						</div>
 						<div class="row">
@@ -202,22 +196,11 @@ html {
 									<ul>
 										<li><strong>Category</strong>: Web develop</li>
 										<li><strong>Client</strong>: ITWILLBS</li>
-										<li><strong>Project date</strong>: 2023.</li>
+										<li><strong>Project date</strong>:<br> 2023.08.24 - 2023.09.27</li>
 										<li><strong>Project URL</strong>:<br>
-										<strong>(회원)  </strong>
-										<a href="http://c6d2305t1.itwillbs.com/user/userLogin">
-										http://c6d2305t1.itwillbs.com/user/userLogin</a><br>
-										-ID : user1 <br>
-										-PW : 1234<br>
-										<strong>(관리자)</strong> <br>
-										-ID : admin<br>
-										-PW : 1234<br>
-										<strong>(기업가)</strong>
-										<a href="http://c6d2305t1.itwillbs.com/ent/entLogin">
-										http://c6d2305t1.itwillbs.com/ent/entLogin</a><br>
-										-ID : 601-36-63525<br>
-										-PW : asd123!@#
-										</li>
+										<a href="http://c6d2305t2.itwillbs.com/team2" target="_blank">
+										http://c6d2305t2.itwillbs.com/team2</a><br>
+									
 									</ul>
 								</div>
 
@@ -225,12 +208,13 @@ html {
 							<div class="col-md-6 col-lg-7">
 
 								<div class="portfolio-description">
-									<h2>DAPAO detail</h2>
+									<h2>Off the lamp Detail</h2>
 									<p>
-										기존의 중고사이트에 수익성을 늘려보자고 생각하여 
-										체험단을 중계하는 중고사이트를 만들어 보았습니다.
+										거리두기로 인해 문화산업 침체에도 불구하고 자동차극장은 특유의 프라이빗함으로 성수기를 맞이했으나
+										관련 정보 한번에 모아놓은 사이트가 없고, 예매 방식도 과거에 머물러 있는 문제를 해결하기 위함
+										
 										<br><br>
-										<strong>담당업무</strong> : 상점관리, 상품/주문관리, 광고문의, 대나무페이 충전(안전결제), 판다톡(채팅), 공지사항, FAQ 									
+										<strong>담당업무</strong> : 공지사항, FAQ , 1:1문의, 이벤트게시판, 대관내역 확인, 문의답변									
 									</p>
 								</div>
 							</div>
