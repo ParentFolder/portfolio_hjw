@@ -44,12 +44,12 @@ public class HomeController {
 
 //	http://localhost:8088/portfolioDetails1
 	@RequestMapping(value = "/portfolioDetails1", method = RequestMethod.GET)
-	public void portfolio_details1GET() {
+	public void portfolioDetails1GET() {
 		logger.debug(" portfolioDetails1() 호출 ");
 	}
 //	http://localhost:8088/portfolioDetails2
 	@RequestMapping(value = "/portfolioDetails2", method = RequestMethod.GET)
-	public void portfolio_details2GET() {
+	public void portfolioDetails2GET() {
 		logger.debug(" portfolioDetails2() 호출 ");
 	}
 }
