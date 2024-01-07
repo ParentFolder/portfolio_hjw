@@ -57,12 +57,12 @@ public class HomeController {
 	@RequestMapping(value = "/portfolioDetails1", method = RequestMethod.GET)
 	public String portfolioDetails1GET() {
 		logger.debug(" portfolioDetails1() 호출 ");
-		return "/portfolioDetail1.html";
+		return "/portfolioDetail1s.html";
 	}
 //	http://localhost:8088/portfolioDetails2
 	@RequestMapping(value = "/portfolioDetails2", method = RequestMethod.GET)
 	public String portfolioDetails2GET() {
 		logger.debug(" portfolioDetails2() 호출 ");
-		return "/portfolioDetail2.html";
+		return "/portfolioDetails2.html";
 	}
 }
