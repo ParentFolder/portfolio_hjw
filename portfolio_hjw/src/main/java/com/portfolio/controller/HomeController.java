@@ -52,6 +52,6 @@ public class HomeController {
 	@RequestMapping(value = "/portfolioDetail2", method = RequestMethod.GET)
 	public String portfolioDetails2GET() {
 		logger.debug(" portfolioDetails2() 호출 ");
-		return "portfolioDetail2.html";
+		return "portfolio_hjw/src/main/webapp/WEB-INF/views/portfolioDetail2.html";
 	}
 }
