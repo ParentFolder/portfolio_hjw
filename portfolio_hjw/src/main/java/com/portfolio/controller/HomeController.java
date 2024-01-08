@@ -46,7 +46,7 @@ public class HomeController {
 	@RequestMapping(value = "/portfolioDetail1", method = RequestMethod.GET)
 	public String portfolioDetails1GET() {
 		logger.debug(" portfolioDetails1() 호출 ");
-		return "portfolioDetail1.html";
+		return "portfolio_hjw/portfolio_hjw/src/main/webapp/WEB-INF/views/portfolioDetail1.html";
 	}
 //	http://localhost:8088/portfolioDetails2
 	@RequestMapping(value = "/portfolioDetail2", method = RequestMethod.GET)
