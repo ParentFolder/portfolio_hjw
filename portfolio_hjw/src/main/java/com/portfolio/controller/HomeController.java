@@ -38,8 +38,9 @@ public class HomeController {
 	}
 //	http://localhost:8088/index
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public void indexGET() {
+	public String indexGET() {
 		logger.debug(" index() 호출 ");
+		return "portfolio_hjw/portfolio_hjw/index.html";
 	}
 
 	//	http://localhost:8088/portfolioDetails1
