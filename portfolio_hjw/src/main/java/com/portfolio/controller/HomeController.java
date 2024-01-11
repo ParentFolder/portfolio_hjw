@@ -40,7 +40,7 @@ public class HomeController {
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String indexGET() {
 		logger.debug(" index() 호출 ");
-		return "portfolio_hjw/portfolio_hjw/index.html";
+		return "portfolio_hjw/portfolio_hjw/src/main/webapp/WEB-INF/views/index.html";
 	}
 
 	//	http://localhost:8088/portfolioDetails1
